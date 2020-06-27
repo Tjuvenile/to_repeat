@@ -510,6 +510,3 @@ class ToRepeatAndSort:
         '''
         for i in range( 1, self.file_count + 1 ):
             os.remove( str( i ) + "h.txt" )
-
-if __name__ == '__main__':
-    Ui_MainWindow()
